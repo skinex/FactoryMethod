@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="6.0" y="148.0">Factory.Composite</node>
+    <node x="0.0" y="0.0">Factory.IteratorCreator</node>
+    <node x="345.5745856353591" y="27.002762430939224">Factory.DFS</node>
+    <node x="347.5138121546961" y="112.09944751381215">Factory.BFS</node>
+    <node x="19.0" y="318.0">Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Client" target="Factory.Composite">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Factory.Composite" target="Factory.IteratorCreator">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.851764705882353" x="202.0" y="192.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
